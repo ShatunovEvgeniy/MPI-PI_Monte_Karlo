@@ -1,4 +1,4 @@
-# Install script for directory: /home/evgeniy/Документы/GitHub/MPI-PI_Monte_Karlo
+# Install script for directory: /home/evgeniy/MPI-PI_Monte_Karlo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -49,7 +49,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pi_mpi"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/evgeniy/Документы/GitHub/MPI-PI_Monte_Karlo/build/pi_mpi")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/evgeniy/MPI-PI_Monte_Karlo/build/pi_mpi")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pi_mpi" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/pi_mpi")
     file(RPATH_CHANGE
@@ -63,7 +63,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/evgeniy/Документы/GitHub/MPI-PI_Monte_Karlo/build/CMakeFiles/pi_mpi.dir/install-cxx-module-bmi-Release.cmake" OPTIONAL)
+  include("/home/evgeniy/MPI-PI_Monte_Karlo/build/CMakeFiles/pi_mpi.dir/install-cxx-module-bmi-Release.cmake" OPTIONAL)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -74,5 +74,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/evgeniy/Документы/GitHub/MPI-PI_Monte_Karlo/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/evgeniy/MPI-PI_Monte_Karlo/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,7 +1,6 @@
 CMakeFiles/pi_mpi.dir/src/main.cpp.o: \
- /home/evgeniy/Документы/GitHub/MPI-PI_Monte_Karlo/src/main.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/13/iostream \
- /usr/include/c++/13/bits/requires_hosted.h \
+ /home/evgeniy/MPI-PI_Monte_Karlo/src/main.cpp /usr/include/stdc-predef.h \
+ /usr/include/c++/13/iostream /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -196,9 +195,11 @@ CMakeFiles/pi_mpi.dir/src/main.cpp.o: \
  /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/info_inln.h \
  /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/win_inln.h \
  /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi/ompi/mpi/cxx/file_inln.h \
- /home/evgeniy/Документы/GitHub/MPI-PI_Monte_Karlo/include/config.hpp \
- /home/evgeniy/Документы/GitHub/MPI-PI_Monte_Karlo/include/pi_calculator.hpp \
- /usr/include/gsl/gsl_rng.h /usr/include/c++/13/stdlib.h \
- /usr/include/gsl/gsl_types.h /usr/include/gsl/gsl_errno.h \
- /usr/include/gsl/gsl_inline.h \
- /home/evgeniy/Документы/GitHub/MPI-PI_Monte_Karlo/include/mpi_helpers.hpp
+ /home/evgeniy/MPI-PI_Monte_Karlo/include/config.hpp \
+ /home/evgeniy/MPI-PI_Monte_Karlo/include/pi_calculator.hpp \
+ /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl/gsl_rng.h \
+ /usr/include/c++/13/stdlib.h \
+ /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl/gsl_types.h \
+ /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl/gsl_errno.h \
+ /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl/gsl_inline.h \
+ /home/evgeniy/MPI-PI_Monte_Karlo/include/mpi_helpers.hpp

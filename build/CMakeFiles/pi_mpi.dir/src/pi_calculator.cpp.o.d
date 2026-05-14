@@ -1,9 +1,9 @@
 CMakeFiles/pi_mpi.dir/src/pi_calculator.cpp.o: \
- /home/evgeniy/Документы/GitHub/MPI-PI_Monte_Karlo/src/pi_calculator.cpp \
+ /home/evgeniy/MPI-PI_Monte_Karlo/src/pi_calculator.cpp \
  /usr/include/stdc-predef.h \
- /home/evgeniy/Документы/GitHub/MPI-PI_Monte_Karlo/include/pi_calculator.hpp \
- /usr/include/gsl/gsl_rng.h /usr/include/c++/13/stdlib.h \
- /usr/include/c++/13/cstdlib \
+ /home/evgeniy/MPI-PI_Monte_Karlo/include/pi_calculator.hpp \
+ /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl/gsl_rng.h \
+ /usr/include/c++/13/stdlib.h /usr/include/c++/13/cstdlib \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -53,9 +53,10 @@ CMakeFiles/pi_mpi.dir/src/pi_calculator.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
- /usr/include/c++/13/bits/std_abs.h /usr/include/gsl/gsl_types.h \
- /usr/include/gsl/gsl_errno.h /usr/include/stdio.h \
- /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
+ /usr/include/c++/13/bits/std_abs.h \
+ /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl/gsl_types.h \
+ /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl/gsl_errno.h \
+ /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
@@ -71,8 +72,8 @@ CMakeFiles/pi_mpi.dir/src/pi_calculator.cpp.o: \
  /usr/include/x86_64-linux-gnu/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
- /usr/include/gsl/gsl_inline.h /usr/include/c++/13/cmath \
- /usr/include/c++/13/bits/requires_hosted.h \
+ /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl/gsl_inline.h \
+ /usr/include/c++/13/cmath /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/c++/13/bits/cpp_type_traits.h \
  /usr/include/c++/13/ext/type_traits.h /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \

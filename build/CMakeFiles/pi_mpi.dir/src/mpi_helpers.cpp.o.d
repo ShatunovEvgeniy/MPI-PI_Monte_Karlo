@@ -1,7 +1,7 @@
 CMakeFiles/pi_mpi.dir/src/mpi_helpers.cpp.o: \
- /home/evgeniy/Документы/GitHub/MPI-PI_Monte_Karlo/src/mpi_helpers.cpp \
+ /home/evgeniy/MPI-PI_Monte_Karlo/src/mpi_helpers.cpp \
  /usr/include/stdc-predef.h \
- /home/evgeniy/Документы/GitHub/MPI-PI_Monte_Karlo/include/mpi_helpers.hpp \
+ /home/evgeniy/MPI-PI_Monte_Karlo/include/mpi_helpers.hpp \
  /usr/lib/x86_64-linux-gnu/openmpi/include/mpi.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
  /usr/lib/x86_64-linux-gnu/openmpi/include/mpi_portable_platform.h \

@@ -1,0 +1,240 @@
+Making install in gsl
+Making install in utils
+Making install in sys
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/sys/gsl_sys.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in test
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/test/gsl_test.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in err
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/err/gsl_errno.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/err/gsl_message.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in bst
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/bst/gsl_bst.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/bst/gsl_bst_types.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/bst/gsl_bst_avl.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/bst/gsl_bst_rb.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in const
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/const/gsl_const.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/const/gsl_const_cgs.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/const/gsl_const_mks.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/const/gsl_const_cgsm.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/const/gsl_const_mksa.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/const/gsl_const_num.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in complex
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/complex/gsl_complex.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/complex/gsl_complex_math.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/complex/test_source.c '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in cheb
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/cheb/gsl_chebyshev.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in block
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/block/gsl_block.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/block/gsl_block_char.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/block/gsl_block_complex_double.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/block/gsl_block_complex_float.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/block/gsl_block_complex_long_double.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/block/gsl_block_double.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/block/gsl_block_float.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/block/gsl_block_int.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/block/gsl_block_long.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/block/gsl_block_long_double.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/block/gsl_block_short.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/block/gsl_block_uchar.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/block/gsl_block_uint.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/block/gsl_block_ulong.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/block/gsl_block_ushort.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/block/gsl_check_range.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in vector
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/vector/gsl_vector.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/vector/gsl_vector_char.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/vector/gsl_vector_complex.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/vector/gsl_vector_complex_double.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/vector/gsl_vector_complex_float.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/vector/gsl_vector_complex_long_double.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/vector/gsl_vector_double.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/vector/gsl_vector_float.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/vector/gsl_vector_int.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/vector/gsl_vector_long.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/vector/gsl_vector_long_double.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/vector/gsl_vector_short.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/vector/gsl_vector_uchar.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/vector/gsl_vector_uint.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/vector/gsl_vector_ulong.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/vector/gsl_vector_ushort.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in matrix
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/matrix/gsl_matrix.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/matrix/gsl_matrix_char.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/matrix/gsl_matrix_complex_double.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/matrix/gsl_matrix_complex_float.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/matrix/gsl_matrix_complex_long_double.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/matrix/gsl_matrix_double.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/matrix/gsl_matrix_float.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/matrix/gsl_matrix_int.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/matrix/gsl_matrix_long.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/matrix/gsl_matrix_long_double.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/matrix/gsl_matrix_short.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/matrix/gsl_matrix_uchar.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/matrix/gsl_matrix_uint.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/matrix/gsl_matrix_ulong.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/matrix/gsl_matrix_ushort.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in permutation
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/permutation/gsl_permutation.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/permutation/gsl_permute.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/permutation/gsl_permute_char.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/permutation/gsl_permute_complex_double.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/permutation/gsl_permute_complex_float.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/permutation/gsl_permute_complex_long_double.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/permutation/gsl_permute_double.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/permutation/gsl_permute_float.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/permutation/gsl_permute_int.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/permutation/gsl_permute_long.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/permutation/gsl_permute_long_double.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/permutation/gsl_permute_short.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/permutation/gsl_permute_uchar.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/permutation/gsl_permute_uint.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/permutation/gsl_permute_ulong.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/permutation/gsl_permute_ushort.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/permutation/gsl_permute_vector.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/permutation/gsl_permute_vector_char.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/permutation/gsl_permute_vector_complex_double.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/permutation/gsl_permute_vector_complex_float.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/permutation/gsl_permute_vector_complex_long_double.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/permutation/gsl_permute_vector_double.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/permutation/gsl_permute_vector_float.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/permutation/gsl_permute_vector_int.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/permutation/gsl_permute_vector_long.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/permutation/gsl_permute_vector_long_double.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/permutation/gsl_permute_vector_short.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/permutation/gsl_permute_vector_uchar.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/permutation/gsl_permute_vector_uint.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/permutation/gsl_permute_vector_ulong.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/permutation/gsl_permute_vector_ushort.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/permutation/gsl_permute_matrix_char.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/permutation/gsl_permute_matrix_complex_long_double.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/permutation/gsl_permute_matrix.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/permutation/gsl_permute_matrix_long.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/permutation/gsl_permute_matrix_uint.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/permutation/gsl_permute_matrix_complex_double.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/permutation/gsl_permute_matrix_double.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/permutation/gsl_permute_matrix_int.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/permutation/gsl_permute_matrix_short.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/permutation/gsl_permute_matrix_ulong.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/permutation/gsl_permute_matrix_complex_float.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/permutation/gsl_permute_matrix_float.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/permutation/gsl_permute_matrix_long_double.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/permutation/gsl_permute_matrix_uchar.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/permutation/gsl_permute_matrix_ushort.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in combination
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/combination/gsl_combination.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in multiset
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/multiset/gsl_multiset.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in sort
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/sort/gsl_heapsort.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/sort/gsl_sort.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/sort/gsl_sort_char.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/sort/gsl_sort_double.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/sort/gsl_sort_float.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/sort/gsl_sort_int.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/sort/gsl_sort_long.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/sort/gsl_sort_long_double.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/sort/gsl_sort_short.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/sort/gsl_sort_uchar.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/sort/gsl_sort_uint.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/sort/gsl_sort_ulong.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/sort/gsl_sort_ushort.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/sort/gsl_sort_vector.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/sort/gsl_sort_vector_char.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/sort/gsl_sort_vector_double.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/sort/gsl_sort_vector_float.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/sort/gsl_sort_vector_int.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/sort/gsl_sort_vector_long.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/sort/gsl_sort_vector_long_double.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/sort/gsl_sort_vector_short.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/sort/gsl_sort_vector_uchar.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/sort/gsl_sort_vector_uint.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/sort/gsl_sort_vector_ulong.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/sort/gsl_sort_vector_ushort.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in ieee-utils
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/ieee-utils/gsl_ieee_utils.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in cblas
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/lib'
+ /bin/bash ../libtool   --mode=install /usr/bin/install -c   libgslcblas.la '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/lib'
+libtool: install: /usr/bin/install -c .libs/libgslcblas.lai /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/lib/libgslcblas.la
+libtool: install: /usr/bin/install -c .libs/libgslcblas.a /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/lib/libgslcblas.a
+libtool: install: chmod 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/lib/libgslcblas.a
+libtool: install: ranlib /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/lib/libgslcblas.a
+libtool: finish: PATH="/home/evgeniy/.local/bin:/home/evgeniy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/evgeniy/.local/bin:/home/evgeniy/.local/bin:/home/evgeniy/.local/bin:/home/evgeniy/.local/bin:/sbin" ldconfig -n /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/cblas/gsl_cblas.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in blas
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/blas/gsl_blas.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/blas/gsl_blas_types.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in linalg
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/linalg/gsl_linalg.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in eigen
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/eigen/gsl_eigen.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in specfunc
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/specfunc/gsl_sf.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/specfunc/gsl_sf_airy.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/specfunc/gsl_sf_alf.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/specfunc/gsl_sf_bessel.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/specfunc/gsl_sf_clausen.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/specfunc/gsl_sf_coulomb.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/specfunc/gsl_sf_coupling.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/specfunc/gsl_sf_dawson.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/specfunc/gsl_sf_debye.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/specfunc/gsl_sf_dilog.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/specfunc/gsl_sf_elementary.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/specfunc/gsl_sf_ellint.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/specfunc/gsl_sf_elljac.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/specfunc/gsl_sf_erf.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/specfunc/gsl_sf_exp.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/specfunc/gsl_sf_expint.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/specfunc/gsl_sf_fermi_dirac.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/specfunc/gsl_sf_gamma.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/specfunc/gsl_sf_gegenbauer.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/specfunc/gsl_sf_hermite.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/specfunc/gsl_sf_hyperg.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/specfunc/gsl_sf_laguerre.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/specfunc/gsl_sf_lambert.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/specfunc/gsl_sf_legendre.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/specfunc/gsl_sf_log.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/specfunc/gsl_sf_mathieu.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/specfunc/gsl_sf_pow_int.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/specfunc/gsl_sf_psi.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/specfunc/gsl_sf_result.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/specfunc/gsl_sf_sincos_pi.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/specfunc/gsl_sf_synchrotron.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/specfunc/gsl_sf_transport.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/specfunc/gsl_sf_trig.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/specfunc/gsl_sf_zeta.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/specfunc/gsl_specfunc.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in dht
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/dht/gsl_dht.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in qrng
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/qrng/gsl_qrng.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in rng
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/rng/gsl_rng.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in randist
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/randist/gsl_randist.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in fft
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/fft/gsl_fft.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/fft/gsl_fft_complex.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/fft/gsl_fft_halfcomplex.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/fft/gsl_fft_real.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/fft/gsl_dft_complex.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/fft/gsl_dft_complex_float.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/fft/gsl_fft_complex_float.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/fft/gsl_fft_halfcomplex_float.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/fft/gsl_fft_real_float.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in poly
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/poly/gsl_poly.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in fit
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/fit/gsl_fit.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in multifit
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/multifit/gsl_multifit.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/multifit/gsl_multifit_nlin.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in multifit_nlinear
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/multifit_nlinear/gsl_multifit_nlinear.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in multilarge
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/multilarge/gsl_multilarge.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in multilarge_nlinear
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/multilarge_nlinear/gsl_multilarge_nlinear.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in filter
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/filter/gsl_filter.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in movstat
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/movstat/gsl_movstat.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in rstat
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/rstat/gsl_rstat.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in statistics
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/statistics/gsl_statistics.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/statistics/gsl_statistics_char.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/statistics/gsl_statistics_double.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/statistics/gsl_statistics_float.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/statistics/gsl_statistics_int.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/statistics/gsl_statistics_long.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/statistics/gsl_statistics_long_double.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/statistics/gsl_statistics_short.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/statistics/gsl_statistics_uchar.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/statistics/gsl_statistics_uint.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/statistics/gsl_statistics_ulong.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/statistics/gsl_statistics_ushort.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in siman
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/siman/gsl_siman.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in sum
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/sum/gsl_sum.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in integration
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/integration/gsl_integration.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in interpolation
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/interpolation/gsl_interp.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/interpolation/gsl_spline.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/interpolation/gsl_interp2d.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/interpolation/gsl_spline2d.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in histogram
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/histogram/gsl_histogram.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/histogram/gsl_histogram2d.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in ode-initval
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/ode-initval/gsl_odeiv.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in ode-initval2
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/ode-initval2/gsl_odeiv2.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in roots
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/roots/gsl_roots.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in multiroots
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/multiroots/gsl_multiroots.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in min
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/min/gsl_min.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in multimin
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/multimin/gsl_multimin.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in monte
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/monte/gsl_monte.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/monte/gsl_monte_vegas.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/monte/gsl_monte_miser.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/monte/gsl_monte_plain.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in ntuple
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/ntuple/gsl_ntuple.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in diff
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/diff/gsl_diff.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in deriv
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/deriv/gsl_deriv.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in cdf
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/cdf/gsl_cdf.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in wavelet
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/wavelet/gsl_wavelet.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/wavelet/gsl_wavelet2d.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in bspline
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/bspline/gsl_bspline.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in spblas
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/spblas/gsl_spblas.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in spmatrix
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/spmatrix/gsl_spmatrix.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/spmatrix/gsl_spmatrix_char.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/spmatrix/gsl_spmatrix_double.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/spmatrix/gsl_spmatrix_float.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/spmatrix/gsl_spmatrix_int.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/spmatrix/gsl_spmatrix_long_double.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/spmatrix/gsl_spmatrix_long.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/spmatrix/gsl_spmatrix_short.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/spmatrix/gsl_spmatrix_uchar.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/spmatrix/gsl_spmatrix_uint.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/spmatrix/gsl_spmatrix_ulong.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/spmatrix/gsl_spmatrix_ushort.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/spmatrix/gsl_spmatrix_complex_float.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/spmatrix/gsl_spmatrix_complex_double.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/spmatrix/gsl_spmatrix_complex_long_double.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in splinalg
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/splinalg/gsl_splinalg.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+Making install in doc
+Making install in .
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/share/man/man1'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/doc/gsl-config.1 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/doc/gsl-randist.1 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/doc/gsl-histogram.1 '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/share/man/man1'
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/share/man/man3'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/doc/gsl.3 '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/share/man/man3'
+Making install in examples
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/lib'
+ /bin/bash ./libtool   --mode=install /usr/bin/install -c   libgsl.la '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/lib'
+libtool: install: /usr/bin/install -c .libs/libgsl.lai /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/lib/libgsl.la
+libtool: install: /usr/bin/install -c .libs/libgsl.a /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/lib/libgsl.a
+libtool: install: chmod 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/lib/libgsl.a
+libtool: install: ranlib /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/lib/libgsl.a
+libtool: finish: PATH="/home/evgeniy/.local/bin:/home/evgeniy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/evgeniy/.local/bin:/home/evgeniy/.local/bin:/home/evgeniy/.local/bin:/home/evgeniy/.local/bin:/sbin" ldconfig -n /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/bin'
+  /bin/bash ./libtool   --mode=install /usr/bin/install -c gsl-randist gsl-histogram '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/bin'
+libtool: install: /usr/bin/install -c gsl-randist /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/bin/gsl-randist
+libtool: install: /usr/bin/install -c gsl-histogram /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/bin/gsl-histogram
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/bin'
+ /usr/bin/install -c gsl-config '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/bin'
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/share/aclocal'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/gsl.m4 '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/share/aclocal'
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/lib/pkgconfig'
+ /usr/bin/install -c -m 644 gsl.pc '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/lib/pkgconfig'
+ /usr/bin/mkdir -p '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'
+ /usr/bin/install -c -m 644 /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/gsl_math.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/gsl_pow_int.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/gsl_nan.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/gsl_machine.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/gsl_mode.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/gsl_precision.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/gsl_types.h gsl_version.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/gsl_minmax.h /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/gsl_inline.h '/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include/gsl'

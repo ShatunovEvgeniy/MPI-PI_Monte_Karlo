@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/evgeniy/Документы/GitHub/MPI-PI_Monte_Karlo/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi
+CXX_INCLUDES = -I/home/evgeniy/MPI-PI_Monte_Karlo/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -isystem /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_install/include
 
 CXX_FLAGS = -O3 -DNDEBUG -std=gnu++11 -O2
 

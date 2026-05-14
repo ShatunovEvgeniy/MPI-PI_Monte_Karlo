@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=/usr/bin/cmake;-P;/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external-stamp/download-gsl_external.cmake;COMMAND;/usr/bin/cmake;-P;/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external-stamp/verify-gsl_external.cmake;COMMAND;/usr/bin/cmake;-P;/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external-stamp/extract-gsl_external.cmake
+source_dir=/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8
+work_dir=/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external
+url(s)=https://ftp.gnu.org/gnu/gsl/gsl-2.8.tar.gz
+hash=
+no_extract=
+

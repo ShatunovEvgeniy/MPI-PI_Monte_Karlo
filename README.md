@@ -22,7 +22,7 @@
 
 ```bash
 sudo apt update
-sudo apt install -y build-essential cmake libopenmpi-dev openmpi-bin libgsl-dev
+sudo apt install -y build-essential cmake libopenmpi-dev openmpi-bin
 ```
 
 ## Сборка и запуск
@@ -34,7 +34,7 @@ mkdir build && cd build
 
 ### Конфигурация проекта
 ```bash
-cmake .. -DCMAKE_BUILD_TYPE=Release
+cmake .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_BUILD_PARALLEL_LEVEL=4
 ```
 
 ### Сборка

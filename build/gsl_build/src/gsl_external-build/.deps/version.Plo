@@ -1,0 +1,7 @@
+version.lo: \
+ /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/version.c \
+ /usr/include/stdc-predef.h config.h gsl_version.h gsl/gsl_types.h
+/usr/include/stdc-predef.h:
+config.h:
+gsl_version.h:
+gsl/gsl_types.h:

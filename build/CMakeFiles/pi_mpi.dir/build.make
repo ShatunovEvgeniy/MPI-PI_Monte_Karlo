@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/evgeniy/Документы/GitHub/MPI-PI_Monte_Karlo
+CMAKE_SOURCE_DIR = /home/evgeniy/MPI-PI_Monte_Karlo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/evgeniy/Документы/GitHub/MPI-PI_Monte_Karlo/build
+CMAKE_BINARY_DIR = /home/evgeniy/MPI-PI_Monte_Karlo/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/pi_mpi.dir/depend.make
@@ -70,46 +70,46 @@ include CMakeFiles/pi_mpi.dir/progress.make
 include CMakeFiles/pi_mpi.dir/flags.make
 
 CMakeFiles/pi_mpi.dir/src/main.cpp.o: CMakeFiles/pi_mpi.dir/flags.make
-CMakeFiles/pi_mpi.dir/src/main.cpp.o: /home/evgeniy/Документы/GitHub/MPI-PI_Monte_Karlo/src/main.cpp
+CMakeFiles/pi_mpi.dir/src/main.cpp.o: /home/evgeniy/MPI-PI_Monte_Karlo/src/main.cpp
 CMakeFiles/pi_mpi.dir/src/main.cpp.o: CMakeFiles/pi_mpi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/evgeniy/Документы/GitHub/MPI-PI_Monte_Karlo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pi_mpi.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pi_mpi.dir/src/main.cpp.o -MF CMakeFiles/pi_mpi.dir/src/main.cpp.o.d -o CMakeFiles/pi_mpi.dir/src/main.cpp.o -c /home/evgeniy/Документы/GitHub/MPI-PI_Monte_Karlo/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/evgeniy/MPI-PI_Monte_Karlo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pi_mpi.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pi_mpi.dir/src/main.cpp.o -MF CMakeFiles/pi_mpi.dir/src/main.cpp.o.d -o CMakeFiles/pi_mpi.dir/src/main.cpp.o -c /home/evgeniy/MPI-PI_Monte_Karlo/src/main.cpp
 
 CMakeFiles/pi_mpi.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pi_mpi.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evgeniy/Документы/GitHub/MPI-PI_Monte_Karlo/src/main.cpp > CMakeFiles/pi_mpi.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evgeniy/MPI-PI_Monte_Karlo/src/main.cpp > CMakeFiles/pi_mpi.dir/src/main.cpp.i
 
 CMakeFiles/pi_mpi.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pi_mpi.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evgeniy/Документы/GitHub/MPI-PI_Monte_Karlo/src/main.cpp -o CMakeFiles/pi_mpi.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evgeniy/MPI-PI_Monte_Karlo/src/main.cpp -o CMakeFiles/pi_mpi.dir/src/main.cpp.s
 
 CMakeFiles/pi_mpi.dir/src/pi_calculator.cpp.o: CMakeFiles/pi_mpi.dir/flags.make
-CMakeFiles/pi_mpi.dir/src/pi_calculator.cpp.o: /home/evgeniy/Документы/GitHub/MPI-PI_Monte_Karlo/src/pi_calculator.cpp
+CMakeFiles/pi_mpi.dir/src/pi_calculator.cpp.o: /home/evgeniy/MPI-PI_Monte_Karlo/src/pi_calculator.cpp
 CMakeFiles/pi_mpi.dir/src/pi_calculator.cpp.o: CMakeFiles/pi_mpi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/evgeniy/Документы/GitHub/MPI-PI_Monte_Karlo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pi_mpi.dir/src/pi_calculator.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pi_mpi.dir/src/pi_calculator.cpp.o -MF CMakeFiles/pi_mpi.dir/src/pi_calculator.cpp.o.d -o CMakeFiles/pi_mpi.dir/src/pi_calculator.cpp.o -c /home/evgeniy/Документы/GitHub/MPI-PI_Monte_Karlo/src/pi_calculator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/evgeniy/MPI-PI_Monte_Karlo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pi_mpi.dir/src/pi_calculator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pi_mpi.dir/src/pi_calculator.cpp.o -MF CMakeFiles/pi_mpi.dir/src/pi_calculator.cpp.o.d -o CMakeFiles/pi_mpi.dir/src/pi_calculator.cpp.o -c /home/evgeniy/MPI-PI_Monte_Karlo/src/pi_calculator.cpp
 
 CMakeFiles/pi_mpi.dir/src/pi_calculator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pi_mpi.dir/src/pi_calculator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evgeniy/Документы/GitHub/MPI-PI_Monte_Karlo/src/pi_calculator.cpp > CMakeFiles/pi_mpi.dir/src/pi_calculator.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evgeniy/MPI-PI_Monte_Karlo/src/pi_calculator.cpp > CMakeFiles/pi_mpi.dir/src/pi_calculator.cpp.i
 
 CMakeFiles/pi_mpi.dir/src/pi_calculator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pi_mpi.dir/src/pi_calculator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evgeniy/Документы/GitHub/MPI-PI_Monte_Karlo/src/pi_calculator.cpp -o CMakeFiles/pi_mpi.dir/src/pi_calculator.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evgeniy/MPI-PI_Monte_Karlo/src/pi_calculator.cpp -o CMakeFiles/pi_mpi.dir/src/pi_calculator.cpp.s
 
 CMakeFiles/pi_mpi.dir/src/mpi_helpers.cpp.o: CMakeFiles/pi_mpi.dir/flags.make
-CMakeFiles/pi_mpi.dir/src/mpi_helpers.cpp.o: /home/evgeniy/Документы/GitHub/MPI-PI_Monte_Karlo/src/mpi_helpers.cpp
+CMakeFiles/pi_mpi.dir/src/mpi_helpers.cpp.o: /home/evgeniy/MPI-PI_Monte_Karlo/src/mpi_helpers.cpp
 CMakeFiles/pi_mpi.dir/src/mpi_helpers.cpp.o: CMakeFiles/pi_mpi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/evgeniy/Документы/GitHub/MPI-PI_Monte_Karlo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pi_mpi.dir/src/mpi_helpers.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pi_mpi.dir/src/mpi_helpers.cpp.o -MF CMakeFiles/pi_mpi.dir/src/mpi_helpers.cpp.o.d -o CMakeFiles/pi_mpi.dir/src/mpi_helpers.cpp.o -c /home/evgeniy/Документы/GitHub/MPI-PI_Monte_Karlo/src/mpi_helpers.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/evgeniy/MPI-PI_Monte_Karlo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pi_mpi.dir/src/mpi_helpers.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pi_mpi.dir/src/mpi_helpers.cpp.o -MF CMakeFiles/pi_mpi.dir/src/mpi_helpers.cpp.o.d -o CMakeFiles/pi_mpi.dir/src/mpi_helpers.cpp.o -c /home/evgeniy/MPI-PI_Monte_Karlo/src/mpi_helpers.cpp
 
 CMakeFiles/pi_mpi.dir/src/mpi_helpers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pi_mpi.dir/src/mpi_helpers.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evgeniy/Документы/GitHub/MPI-PI_Monte_Karlo/src/mpi_helpers.cpp > CMakeFiles/pi_mpi.dir/src/mpi_helpers.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/evgeniy/MPI-PI_Monte_Karlo/src/mpi_helpers.cpp > CMakeFiles/pi_mpi.dir/src/mpi_helpers.cpp.i
 
 CMakeFiles/pi_mpi.dir/src/mpi_helpers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pi_mpi.dir/src/mpi_helpers.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evgeniy/Документы/GitHub/MPI-PI_Monte_Karlo/src/mpi_helpers.cpp -o CMakeFiles/pi_mpi.dir/src/mpi_helpers.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/evgeniy/MPI-PI_Monte_Karlo/src/mpi_helpers.cpp -o CMakeFiles/pi_mpi.dir/src/mpi_helpers.cpp.s
 
 # Object files for target pi_mpi
 pi_mpi_OBJECTS = \
@@ -124,12 +124,12 @@ pi_mpi: CMakeFiles/pi_mpi.dir/src/main.cpp.o
 pi_mpi: CMakeFiles/pi_mpi.dir/src/pi_calculator.cpp.o
 pi_mpi: CMakeFiles/pi_mpi.dir/src/mpi_helpers.cpp.o
 pi_mpi: CMakeFiles/pi_mpi.dir/build.make
-pi_mpi: /usr/lib/x86_64-linux-gnu/libgsl.so
+pi_mpi: gsl_install/lib/libgsl.a
+pi_mpi: gsl_install/lib/libgslcblas.a
 pi_mpi: /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so
 pi_mpi: /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so
-pi_mpi: /usr/lib/x86_64-linux-gnu/libgslcblas.so
 pi_mpi: CMakeFiles/pi_mpi.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/evgeniy/Документы/GitHub/MPI-PI_Monte_Karlo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable pi_mpi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/evgeniy/MPI-PI_Monte_Karlo/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable pi_mpi"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pi_mpi.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -141,6 +141,6 @@ CMakeFiles/pi_mpi.dir/clean:
 .PHONY : CMakeFiles/pi_mpi.dir/clean
 
 CMakeFiles/pi_mpi.dir/depend:
-	cd /home/evgeniy/Документы/GitHub/MPI-PI_Monte_Karlo/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evgeniy/Документы/GitHub/MPI-PI_Monte_Karlo /home/evgeniy/Документы/GitHub/MPI-PI_Monte_Karlo /home/evgeniy/Документы/GitHub/MPI-PI_Monte_Karlo/build /home/evgeniy/Документы/GitHub/MPI-PI_Monte_Karlo/build /home/evgeniy/Документы/GitHub/MPI-PI_Monte_Karlo/build/CMakeFiles/pi_mpi.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/evgeniy/MPI-PI_Monte_Karlo/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/evgeniy/MPI-PI_Monte_Karlo /home/evgeniy/MPI-PI_Monte_Karlo /home/evgeniy/MPI-PI_Monte_Karlo/build /home/evgeniy/MPI-PI_Monte_Karlo/build /home/evgeniy/MPI-PI_Monte_Karlo/build/CMakeFiles/pi_mpi.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/pi_mpi.dir/depend
 

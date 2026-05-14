@@ -1,0 +1,4 @@
+placeholder.lo: \
+ /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/utils/placeholder.c \
+ /usr/include/stdc-predef.h
+/usr/include/stdc-predef.h:

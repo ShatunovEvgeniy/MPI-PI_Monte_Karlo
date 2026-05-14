@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/evgeniy/Документы/GitHub/MPI-PI_Monte_Karlo
+CMAKE_SOURCE_DIR = /home/evgeniy/MPI-PI_Monte_Karlo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/evgeniy/Документы/GitHub/MPI-PI_Monte_Karlo/build
+CMAKE_BINARY_DIR = /home/evgeniy/MPI-PI_Monte_Karlo/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,9 +132,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/evgeniy/Документы/GitHub/MPI-PI_Monte_Karlo/build/CMakeFiles /home/evgeniy/Документы/GitHub/MPI-PI_Monte_Karlo/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/evgeniy/MPI-PI_Monte_Karlo/build/CMakeFiles /home/evgeniy/MPI-PI_Monte_Karlo/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/evgeniy/Документы/GitHub/MPI-PI_Monte_Karlo/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/evgeniy/MPI-PI_Monte_Karlo/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -160,6 +160,19 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named gsl_external
+
+# Build rule for target.
+gsl_external: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gsl_external
+.PHONY : gsl_external
+
+# fast build rule for target.
+gsl_external/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gsl_external.dir/build.make CMakeFiles/gsl_external.dir/build
+.PHONY : gsl_external/fast
 
 #=============================================================================
 # Target rules for targets named pi_mpi
@@ -258,6 +271,7 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
+	@echo "... gsl_external"
 	@echo "... pi_mpi"
 	@echo "... src/main.o"
 	@echo "... src/main.i"

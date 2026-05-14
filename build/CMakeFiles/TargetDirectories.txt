@@ -1,7 +1,8 @@
-/home/evgeniy/Документы/GitHub/MPI-PI_Monte_Karlo/build/CMakeFiles/pi_mpi.dir
-/home/evgeniy/Документы/GitHub/MPI-PI_Monte_Karlo/build/CMakeFiles/edit_cache.dir
-/home/evgeniy/Документы/GitHub/MPI-PI_Monte_Karlo/build/CMakeFiles/rebuild_cache.dir
-/home/evgeniy/Документы/GitHub/MPI-PI_Monte_Karlo/build/CMakeFiles/list_install_components.dir
-/home/evgeniy/Документы/GitHub/MPI-PI_Monte_Karlo/build/CMakeFiles/install.dir
-/home/evgeniy/Документы/GitHub/MPI-PI_Monte_Karlo/build/CMakeFiles/install/local.dir
-/home/evgeniy/Документы/GitHub/MPI-PI_Monte_Karlo/build/CMakeFiles/install/strip.dir
+/home/evgeniy/MPI-PI_Monte_Karlo/build/CMakeFiles/gsl_external.dir
+/home/evgeniy/MPI-PI_Monte_Karlo/build/CMakeFiles/pi_mpi.dir
+/home/evgeniy/MPI-PI_Monte_Karlo/build/CMakeFiles/edit_cache.dir
+/home/evgeniy/MPI-PI_Monte_Karlo/build/CMakeFiles/rebuild_cache.dir
+/home/evgeniy/MPI-PI_Monte_Karlo/build/CMakeFiles/list_install_components.dir
+/home/evgeniy/MPI-PI_Monte_Karlo/build/CMakeFiles/install.dir
+/home/evgeniy/MPI-PI_Monte_Karlo/build/CMakeFiles/install/local.dir
+/home/evgeniy/MPI-PI_Monte_Karlo/build/CMakeFiles/install/strip.dir

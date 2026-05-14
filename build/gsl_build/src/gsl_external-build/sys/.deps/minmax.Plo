@@ -1,0 +1,10 @@
+minmax.lo: \
+ /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/sys/minmax.c \
+ /usr/include/stdc-predef.h ../config.h \
+ /home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/build.h \
+ ../gsl/gsl_minmax.h ../gsl/gsl_inline.h
+/usr/include/stdc-predef.h:
+../config.h:
+/home/evgeniy/MPI-PI_Monte_Karlo/build/gsl_build/src/gsl_external/gsl-2.8/build.h:
+../gsl/gsl_minmax.h:
+../gsl/gsl_inline.h:
