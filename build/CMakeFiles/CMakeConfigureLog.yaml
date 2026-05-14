@@ -624,3 +624,108 @@ events:
         
       exitCode: 0
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:9 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/evgeniy/MPI-PI_Monte_Karlo/build/CMakeFiles/CMakeScratch/TryCompile-N0boyt"
+      binary: "/home/evgeniy/MPI-PI_Monte_Karlo/build/CMakeFiles/CMakeScratch/TryCompile-N0boyt"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/evgeniy/MPI-PI_Monte_Karlo/build/CMakeFiles/CMakeScratch/TryCompile-N0boyt'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9eae7/fast
+        gmake[1]: вход в каталог «/home/evgeniy/MPI-PI_Monte_Karlo/build/CMakeFiles/CMakeScratch/TryCompile-N0boyt»
+        /usr/bin/gmake  -f CMakeFiles/cmTC_9eae7.dir/build.make CMakeFiles/cmTC_9eae7.dir/build
+        gmake[2]: вход в каталог «/home/evgeniy/MPI-PI_Monte_Karlo/build/CMakeFiles/CMakeScratch/TryCompile-N0boyt»
+        Building C object CMakeFiles/cmTC_9eae7.dir/test_mpi.c.o
+        /usr/bin/cc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_9eae7.dir/test_mpi.c.o -c /home/evgeniy/MPI-PI_Monte_Karlo/build/CMakeFiles/CMakeScratch/TryCompile-N0boyt/test_mpi.c
+        Linking C executable cmTC_9eae7
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9eae7.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_9eae7.dir/test_mpi.c.o -o cmTC_9eae7  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so 
+        gmake[2]: выход из каталога «/home/evgeniy/MPI-PI_Monte_Karlo/build/CMakeFiles/CMakeScratch/TryCompile-N0boyt»
+        gmake[1]: выход из каталога «/home/evgeniy/MPI-PI_Monte_Karlo/build/CMakeFiles/CMakeScratch/TryCompile-N0boyt»
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:9 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "/home/evgeniy/MPI-PI_Monte_Karlo/build/CMakeFiles/CMakeScratch/TryCompile-5KbxIx"
+      binary: "/home/evgeniy/MPI-PI_Monte_Karlo/build/CMakeFiles/CMakeScratch/TryCompile-5KbxIx"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/evgeniy/MPI-PI_Monte_Karlo/build/CMakeFiles/CMakeScratch/TryCompile-5KbxIx'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4cfda/fast
+        gmake[1]: вход в каталог «/home/evgeniy/MPI-PI_Monte_Karlo/build/CMakeFiles/CMakeScratch/TryCompile-5KbxIx»
+        /usr/bin/gmake  -f CMakeFiles/cmTC_4cfda.dir/build.make CMakeFiles/cmTC_4cfda.dir/build
+        gmake[2]: вход в каталог «/home/evgeniy/MPI-PI_Monte_Karlo/build/CMakeFiles/CMakeScratch/TryCompile-5KbxIx»
+        Building CXX object CMakeFiles/cmTC_4cfda.dir/test_mpi.cpp.o
+        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -std=gnu++11 -o CMakeFiles/cmTC_4cfda.dir/test_mpi.cpp.o -c /home/evgeniy/MPI-PI_Monte_Karlo/build/CMakeFiles/CMakeScratch/TryCompile-5KbxIx/test_mpi.cpp
+        Linking CXX executable cmTC_4cfda
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4cfda.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_4cfda.dir/test_mpi.cpp.o -o cmTC_4cfda  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so 
+        gmake[2]: выход из каталога «/home/evgeniy/MPI-PI_Monte_Karlo/build/CMakeFiles/CMakeScratch/TryCompile-5KbxIx»
+        gmake[1]: выход из каталога «/home/evgeniy/MPI-PI_Monte_Karlo/build/CMakeFiles/CMakeScratch/TryCompile-5KbxIx»
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1672 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:9 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "/home/evgeniy/MPI-PI_Monte_Karlo/build/CMakeFiles/CMakeScratch/TryCompile-79twpf"
+      binary: "/home/evgeniy/MPI-PI_Monte_Karlo/build/CMakeFiles/CMakeScratch/TryCompile-79twpf"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: '/home/evgeniy/MPI-PI_Monte_Karlo/build/CMakeFiles/CMakeScratch/TryCompile-79twpf'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8129b/fast
+        gmake[1]: вход в каталог «/home/evgeniy/MPI-PI_Monte_Karlo/build/CMakeFiles/CMakeScratch/TryCompile-79twpf»
+        /usr/bin/gmake  -f CMakeFiles/cmTC_8129b.dir/build.make CMakeFiles/cmTC_8129b.dir/build
+        gmake[2]: вход в каталог «/home/evgeniy/MPI-PI_Monte_Karlo/build/CMakeFiles/CMakeScratch/TryCompile-79twpf»
+        Building CXX object CMakeFiles/cmTC_8129b.dir/test_mpi.cpp.o
+        /usr/bin/c++  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi -std=gnu++11 -o CMakeFiles/cmTC_8129b.dir/test_mpi.cpp.o -c /home/evgeniy/MPI-PI_Monte_Karlo/build/CMakeFiles/CMakeScratch/TryCompile-79twpf/test_mpi.cpp
+        Linking CXX executable cmTC_8129b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8129b.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_8129b.dir/test_mpi.cpp.o -o cmTC_8129b  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/openmpi/lib /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi_cxx.so /usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so 
+        gmake[2]: выход из каталога «/home/evgeniy/MPI-PI_Monte_Karlo/build/CMakeFiles/CMakeScratch/TryCompile-79twpf»
+        gmake[1]: выход из каталога «/home/evgeniy/MPI-PI_Monte_Karlo/build/CMakeFiles/CMakeScratch/TryCompile-79twpf»
+        
+      exitCode: 0
+...

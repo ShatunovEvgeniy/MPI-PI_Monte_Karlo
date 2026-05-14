@@ -2,7 +2,7 @@
 
 // Общие константы проекта
 namespace config {
-    constexpr long long TOTAL_POINTS = 100000000LL;
+    constexpr long long TOTAL_POINTS = 15000000000LL;
     constexpr unsigned int RNG_SEED_OFFSET = 42;
     
     // Вывод отладочной информации
